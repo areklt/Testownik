@@ -1,9 +1,9 @@
 import java.util.List;
 
 public class ExamEntry {
-    public Question question;
-    public List<Integer> selectedAnswers; // Indeksy odpowiedzi zaznaczonych przez użytkownika
-    public boolean isCorrect;
+    Question question;
+    List<Integer> selectedAnswers;
+    boolean isCorrect;
 
     public ExamEntry(Question question, List<Integer> selectedAnswers, boolean isCorrect) {
         this.question = question;
